@@ -250,7 +250,7 @@ AO = {
 ```
 形参arguments这时候已经有赋值了，但是变量还是undefined，只是初始化的值
 
-#####代码执行
+####代码执行
 
 这个阶段会顺序执行代码，修改变量对象的值，执行完成后AO如下
 ```javascript
@@ -277,5 +277,5 @@ AO = {
 
 
 作者：wmg
-链接：''
+链接：'https://github.com/wmgShadow/-/blob/master/README.md'
 来源：GitHub.com
