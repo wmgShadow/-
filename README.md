@@ -33,7 +33,7 @@ result();//999
 ```
 以上面这样一个例子讲解，执行上下文在调用栈中的创建过程
 
-![markdown](https://upload-images.jianshu.io/upload_images/4067575-cdb1fa08a10a66ac.png?imageMogr2/auto-orient/ "markdown")
+![markdown](https://jiaxiaozhijia.image.mucang.cn/jiaxiaozhijia/2019/05/30/17/4608f000f4d147f982db5725fcd2a332.png "markdown")
 
 #### 执行上下文的生命周期
 
@@ -298,7 +298,7 @@ var str = `我是字符串`,
     }
 ```
 在内存中就发生了如下图这样的事情：
-![markdown](https://user-gold-cdn.xitu.io/2019/2/23/1691ae275c7589df?imageslim "markdown")
+![markdown](https://jiaxiaozhijia.image.mucang.cn/jiaxiaozhijia/2019/05/30/17/774e3235380f4d38bf7d8ca02108bd10.png "markdown")
 
 ```javascript
 var a = 20;
