@@ -82,7 +82,7 @@ result();//999
 ```
 以上面这样一个例子讲解，执行上下文在调用栈中的创建过程
 
-![](https://jiaxiaozhijia.image.mucang.cn/jiaxiaozhijia/2019/05/30/17/4608f000f4d147f982db5725fcd2a332.png)
+![](http://chuantu.xyz/t6/702/1559302355x2073530529.png)
 
 #### 执行上下文的生命周期
 
