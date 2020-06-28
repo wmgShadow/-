@@ -69,24 +69,6 @@ a = null;
 - 函数的执行上下文的数目没有限制。
 - 每次某个函数被调用时，就会有新的执行上下文，即使是调用的自身函数。
 
-#### demo01
-```javascript
-
-function f1(){
-     var n = 999;
-     function f2(){
-         alert(n);
-    }
-    return f2;
-}
-var result = f1();
-result();//999
-```
-以上面这样一个例子讲解，执行上下文在调用栈中的创建过程
-
-![avatar](http://chuantu.xyz/t6/702/1559302355x2073530529.png)
-
-
 #### 执行上下文的生命周期
 
 ##### 执行上下文分两个阶段创建：1）创建阶段； 2）执行阶段
@@ -221,7 +203,7 @@ FunctionExectionContext = {
 如果 Javascript 引擎在源代码中声明的实际位置找不到 let 变量的值，那么将为其分配 undefined 值。
 
 有如下两段代码，执行的结果是一样的，但是两段代码究竟有什么不同？
-##### dome2
+##### dome1
 ```javascript
 var scope = "global scope";
 function checkscope(){
