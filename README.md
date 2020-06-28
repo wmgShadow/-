@@ -26,7 +26,7 @@ var str = `我是字符串`,
 ```
 在内存中就发生了如下图这样的事情：
 
-![](https://user-gold-cdn.xitu.io/2019/2/23/1691ae275c7589df?imageslim )
+![](https://user-gold-cdn.xitu.io/2019/2/23/1691ae275c7589df?imageslim)
 
 
 ```javascript
